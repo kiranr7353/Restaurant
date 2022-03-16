@@ -3527,11 +3527,6 @@
   "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-10.0.0.tgz"
   "version" "10.0.0"
 
-"dummy-component@git+https://github.com/recraftrelic/dummy-react-npm-module.git":
-  "integrity" "sha512-Do3ahzNVn0/qhYCVjtTGLE1dLK8kwnaUSKJgCIymk6EnTcvuRPsKgTMN1EV8cp+O+Ik1tEsg1AxaTtu+XyJ7yg=="
-  "resolved" "git+ssh://git@github.com/recraftrelic/dummy-react-npm-module.git"
-  "version" "1.0.0"
-
 "duplexer@^0.1.2":
   "integrity" "sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg=="
   "resolved" "https://registry.npmjs.org/duplexer/-/duplexer-0.1.2.tgz"
@@ -6985,7 +6980,7 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@^16.6.3", "react-dom@^17.0.2":
+"react-dom@^17.0.2":
   "integrity" "sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -6999,6 +6994,11 @@
   "integrity" "sha512-mKR90fX7Pm5seCOfz8q9F+66VCc1PGsWSBxKbITjfKVQHMNF2zudxHnMdJiB1fRCb+XsbQV9sO9DCkgsMQgBIA=="
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.10.tgz"
   "version" "6.0.10"
+
+"react-icons@^4.3.1":
+  "integrity" "sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ=="
+  "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.3.1.tgz"
+  "version" "4.3.1"
 
 "react-is@^16.13.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
@@ -7070,7 +7070,7 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react@^16.0.0", "react@^16.6.1", "react@^17.0.2", "react@>= 16":
+"react@*", "react@^16.0.0", "react@^17.0.2", "react@>= 16":
   "integrity" "sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
